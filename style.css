@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+label, input{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width:100%
+}
+
+form{
+    width:330px;
+    background-color: rgba(126, 2, 175, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#esquerda{
+    width: 35%;
+    height:500px;
+    float: left;
+    
+}
+
+#direita{
+    width: 65%;
+    height:500px;
+    float: left;
+    
+}
+
+table{
+    background-color:rgba(121, 121, 120, 0.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a {
+    background: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 2px;
+    text-decoration: none;
+
+}
